@@ -402,10 +402,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🌿 ᴜᴘᴅᴀᴛᴇs 🌿', url='https://t.me/Movies4youBackup')
             ],[      
             InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
-            InlineKeyboardButton('😎 ᴏᴡɴᴇʀ 😎', url='https://t.me/KingOf_univers'),
             InlineKeyboardButton('🔱 ᴀʙᴏᴜᴛ 🔱', callback_data='about')
             ],[
-            InlineKeyboardButton('😁 ɪɴsᴛᴀɢʀᴀᴍ  😁', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('😎 ᴏᴡɴᴇʀ 😎', url='https://t.me/KingOf_univers')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await query.message.edit_text(
